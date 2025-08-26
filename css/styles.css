@@ -1,14 +1,35 @@
+*{
+    font-family: "Nunito", sans-serif;
+    
+}
 header{ 
     text-align: center;
-    background-color: rgb(228, 228, 228);
+    background-image: url(../img/fondoheader.jpg);
+    background-size: cover;
+    
+
+}
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    background-color: #c4c4c4;
 }
 img.foto{
     height: 150px;
     width: 150px;
+    border-radius: 50%;
 }
-h1, h2 {
+h1{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+
+} 
+h2 {
     background-color: #c4c4c4;
     color: #005673;
+    font-weight: bold;
 }
 ul span.lista{
     font-style: italic;
@@ -17,5 +38,10 @@ ul span.lista{
 footer {
     text-align: center;
     background-color: #005673;
+    height: 70px;
+}
+footer i {
+    font-size: 30px;
     color: beige;
 }
+
