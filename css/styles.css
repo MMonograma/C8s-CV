@@ -1,0 +1,21 @@
+header{ 
+    text-align: center;
+    background-color: rgb(228, 228, 228);
+}
+img.foto{
+    height: 150px;
+    width: 150px;
+}
+h1, h2 {
+    background-color: #c4c4c4;
+    color: #005673;
+}
+ul span.lista{
+    font-style: italic;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    background-color: #005673;
+    color: beige;
+}
